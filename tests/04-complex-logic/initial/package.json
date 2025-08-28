@@ -1,0 +1,13 @@
+{
+  "name": "complex-logic-test",
+  "version": "1.0.0",
+  "description": "Complex Logic test for AI agents",
+  "main": "task-scheduler.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node task-scheduler.js"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}

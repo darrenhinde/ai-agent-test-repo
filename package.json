@@ -1,0 +1,23 @@
+{
+  "name": "ai-agent-test-repo",
+  "version": "1.0.0",
+  "description": "Comprehensive test suite for evaluating AI coding agents",
+  "main": "evaluation/evaluator.js",
+  "scripts": {
+    "evaluate": "node evaluation/evaluator.js",
+    "test:all": "npm run test --workspaces",
+    "test:validate": "echo \"Repository setup validated successfully!\""
+  },
+  "workspaces": [
+    "tests/*/initial"
+  ],
+  "keywords": [
+    "ai",
+    "evaluation",
+    "coding",
+    "testing",
+    "agents"
+  ],
+  "author": "AI Evaluation Framework",
+  "license": "MIT"
+}

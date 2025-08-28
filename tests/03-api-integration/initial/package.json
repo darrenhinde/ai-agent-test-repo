@@ -1,0 +1,12 @@
+{
+  "name": "api-integration-test",
+  "version": "1.0.0",
+  "description": "API Integration test for AI agents",
+  "scripts": {
+    "start": "python -m http.server 8001",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ui-dashboard-test",
+  "version": "1.0.0",
+  "description": "UI Dashboard test for AI agents",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "test": "echo \"Open index.html in browser to test\""
+  }
+}

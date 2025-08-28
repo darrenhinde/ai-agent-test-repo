@@ -1,0 +1,13 @@
+{
+  "name": "simple-implementation-test",
+  "version": "1.0.0",
+  "description": "Simple implementation test for AI agents",
+  "main": "utils.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
