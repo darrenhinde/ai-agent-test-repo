@@ -12,9 +12,25 @@
  * @returns {any} Deep cloned object
  */
 function deepClone(obj) {
-  // TODO: Implement deep cloning
-  // Handle: objects, arrays, primitives, null, undefined
-  throw new Error('Not implemented');
+  // Handle primitives, null, and undefined
+  if (obj === null || typeof obj !== 'object') {
+    return obj;
+  }
+  
+  // Handle Arrays
+  if (Array.isArray(obj)) {
+    return obj.map(item => deepClone(item));
+  }
+  
+  // Handle Objects
+  const cloned = {};
+  for (const key in obj) {
+    if (obj.hasOwnProperty(key)) {
+      cloned[key] = deepClone(obj[key]);
+    }
+  }
+  
+  return cloned;
 }
 
 /**
